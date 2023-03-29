@@ -74,9 +74,9 @@
     <!-- method: get(default) and post -->
     <!-- target: covered in anchor tag() - _blank, _self , .... -->
     
-    <form action="https://myonlinegame.com" method="post" target="_blank">
-        <label for="user">Username:</label>
-        <input id="user" type="text" />
+    <!-- <form action="https://myonlinegame.com" method="post" target="_blank">
+        <label for="user" >Username:</label>
+        <input id="user" type="text" required/>
         <br /><br />
         <label for="age">Age:</label>
         <input id="age" type="number" />
@@ -91,6 +91,60 @@
         <input type="submit">
 
 
+    </form> -->
+
+    <br>
+    <br>
+    <br>
+
+    <form action="">
+        <label>batch</label>
+        <input type="text" value="Stark" disabled>
+        <label>time</label>
+        <input type="text" value="9pm" readonly>
+        <br>
+        <br>
+        <label for="feedabck">Feedback:</label>
+        <textarea id="feedabck" rows="10" cols="50" required autofocus></textarea>
+        <input type="submit" disabled>
+
+        <br>
+        <br>
+        <label for="classTime">Preferred class timings:</label>
+        <select id="classTime" size="5" multiple>
+            <option value="9" disabled selected>select one</option>
+            <optgroup label="morning time">
+                <option value="9">10.00am</option>
+                <option value="9.30">9.30am</option>
+            </optgroup>
+            <optgroup label="afternoon time">
+                <option value="2.30">2.30pm</option>
+                <option value="3">3.00pm</option>
+            </optgroup>
+            <optgroup label="evening time">
+                <option value="8.30">8.30pm</option>
+                <option value="8">9.00pm</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+
+        <button type="button" value="mybytton" disabled>login</button>
+
+        <output for="">8</output>
+        <br>
+        <br>
+
+        <label for="rating">Rating: </label>
+        <input type="number" name="rating" id="rating" min="0" max="5">
+
+        <br>
+        <br>
+        <label for="bookingDate">bookingDate</label>
+        <input type="date" name="" id="bookingDate" min="2023-03-29" max="2023-06-29">
+
+        <label for="username">username</label>
+        <input type="text" name="" id="username" placeholder="type your username...">
     </form>
 
 
