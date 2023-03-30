@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML</title>
+  </head>
+  <body>
+    <header class="name">
+      <h3>Facebook</h3>
+    </header>
+
+    <nav class="navbar">
+      <a href="">Home</a>
+      <a href="">friends</a>
+      <a href="">profile</a>
+    </nav>
+
+    <main class="facebook-main">
+      <section class="createPost">
+        <label for="post"></label>
+        <textarea
+          name="post"
+          id="post"
+          cols="30"
+          rows="10"
+          placeholder="how are you feeling now?"
+        ></textarea>
+        <input type="file" name="" id="" />
+        <button>post</button>
+      </section>
+
+      <section class="postFromPeople">
+        <article>
+          <header><h3>Abhinav</h3></header>
+          <p>this is a beautiful evening</p>
+          <button>like</button>
+          <button>comment</button>
+        </article>
+        <article>
+          <header><h3>Sudipto</h3></header>
+          <p>
+            this is a beautiful morning, i have completed below assignment lease
+            check
+          </p>
+          <a href="">link of assignment</a>
+          <button>like</button>
+          <button>comment</button>
+        </article>
+        <article>
+          <header><h3>Home appliances</h3></header>
+          <figure>
+            <img
+              src="./product-12.jpeg"
+              alt="image of a room with TV along with sofa and table"
+              height="300"
+              width="500"
+            />
+            <figcaption>
+              Please buy this product to enhance the lok and feel within your
+              house
+            </figcaption>
+          </figure>
+          <details>
+            <summary>read more about above product</summary>
+            <p>
+              This is a product of <mark>high quality</mark> built with great materila and
+              design also with the the best practices or material used
+            </p>
+          </details>
+        </article>
+      </section>
+    </main>
+
+    <aside class="online-friends">
+      <header><h3>online friends</h3></header>
+      <p>Kunal</p>
+      <p>Aswath</p>
+    </aside>
+    <footer>
+      <p></p>
+      <i>this website copyright is reserved</i>
+    </footer>
+  </body>
+</html>
