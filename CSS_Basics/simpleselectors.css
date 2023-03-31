@@ -1,0 +1,38 @@
+/* Basic Selectors */
+/* element selector */
+aside{
+    background-color: blueviolet;
+}
+
+section, footer{
+    border: 3px solid green;
+}
+
+div{
+   
+}
+
+p{
+    
+}
+
+/* id */
+#chat{
+    color: green;
+}
+
+/* class selector */
+.msg{
+    color: red;
+}
+
+/* universal selectors */
+*{
+    font-size: large;
+}
+
+
+
+/* combinator selectors */
+/* Attribute selectors */
+/* pseudo selectors --> pseudo elements, pseudo-class */ 

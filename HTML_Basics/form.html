@@ -100,6 +100,8 @@
     <form action="">
         <label>batch</label>
         <input type="text" value="Stark" disabled>
+        <label for="email">email</label>
+        <input type="email" name="" id="email" autocomplete="off">
         <label>time</label>
         <input type="text" value="9pm" readonly>
         <br>
@@ -145,6 +147,16 @@
 
         <label for="username">username</label>
         <input type="text" name="" id="username" placeholder="type your username...">
+
+        <label for="batch">select your batch</label>
+        <input type="text" id="batch" list="batchNames">
+        <datalist id="batchNames">
+          <option value="stark">stark</option>
+          <option value="Juno">Juno</option>
+          <option value="Ursa">Ursa</option>
+        </datalist>
+
+
     </form>
 
 
