@@ -1,0 +1,105 @@
+/* input[checked]{
+    width: 20px;
+    height: 20px;
+} */
+
+/* input[required]{
+    border: 2px solid red;
+} */
+
+
+/* pseudo class selectors */
+input:checked{
+    width: 24px;
+    height: 24px;
+}
+
+input:required{
+    width: 240px;
+    height: 24px;
+    border: 2px solid red;
+}
+
+input:focus{
+    width: 240px;
+    height: 24px;
+    border: 2px dotted green;
+    outline: none;
+}
+
+/* label:first-child{
+    font-size: 20px;
+    font-weight: 800;
+} */
+
+label:last-child{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+article:nth-child(3){
+    font-size: 20px;
+    font-weight: 800;
+}
+
+article:nth-last-child(3){
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+}
+
+.turnGreen:hover{
+    color: green;
+}
+
+
+/* on anchor tags */
+a:active{
+    color: blue;
+    font-weight: bold;
+}
+
+
+/* visited,  */
+
+/* read-only */
+
+
+/* pseudo elements */
+
+article::first-letter{
+    text-transform: capitalize;
+}
+
+article::before{
+    content: "--->  ";
+    font-weight: bold;
+}
+article::after{
+    content: "  <---  ";
+    font-weight: bold;
+}
+
+article::selection{
+    background-color: yellow;
+}
+
+aside::first-line{
+    background-color: brown;
+}
+
+::marker{
+    color: red;
+}
+
+/* list */
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+/* #username{
+    border: 2px solid red;
+} */
+
+input[type="text"]{
+    border: 2px solid green;
+}
+
+
+input[required]{
+    border: 2px solid red;
+}
+
+input[checked]{
+    padding: 10px;
+}
+
+/* p[title]{
+    background-color: green;
+} */
+
+/* we want to select elements where inside title india is present */
+/* matches for the whole word */
+p[title~="india"]{
+    background-color: green;
+}
+
+/* which is used for word along with hyphen */
+/* p[title|="india-"]{
+    background-color: green;
+} */
+
+/* starts with  */
+
+p[title^="+91"]{
+    background-color: yellow;
+}
+
+/* ends with  */
+p[title$="com"]{
+    background-color: gray;
+}
+
+/* contains */
+/* matches the value not the whole word */
+p[title*="gmai"]{
+    background-color: red;
+}
+
+
+
+
+
+
+
+

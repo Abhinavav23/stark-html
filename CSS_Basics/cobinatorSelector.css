@@ -21,7 +21,7 @@ nav a {
     background-color: red;
 } */
 
-/* adhjacent sibling */
+/* adjacent sibling */
 aside + p {
     background-color: red;
 }
