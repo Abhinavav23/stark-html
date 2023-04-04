@@ -1,0 +1,75 @@
+.box-model{
+    width: 30px;
+    background-color: blue;
+    padding: 20px;
+    border: 5px solid red;
+    margin: 10px;
+}
+
+/* body{
+    background-color: aqua;
+} */
+
+/* .my-div{
+    color: white;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 50px;
+    box-sizing:border-box;
+} */
+
+.my-div{
+    color: white;
+    /* height: 100px;
+    width: 100px; */
+    background-color: brown;
+    border: 5px solid blue;
+
+    /* padding: 15px; */
+
+    /* padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 20px; */
+    
+
+    padding: 15px 20px 25px 10px;
+    /* padding: top right bottom left ---> clock wise*/ 
+
+    padding: 10px 20px;
+    /* padding: top & bottom | right & left */
+
+    padding: 10px 20px 30px;
+    /* padding: top right bottom (left is same as right)*/
+
+    
+    /* margin: 15px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px
+
+}
+
+    /* color values */
+    /* 1. using color names */
+    /* 2. using RGB value */
+    /* 
+
+    R - red --> 0 to 255
+    G- green --> 0 to 255
+    B - blue --> 0 to 255
+    
+    */
+
+#my-color{
+    /* background-color: rgb(190, 120, 200); */
+    /* background-color: rgb(190 120 200); */
+    /* background-color: rgb(190.56 120.67 200.56); */
+    /* background-color: rgb(77%, 23%, 45%); */
+    background-color: rgba(255, 0, 0, 1);
+
+}
