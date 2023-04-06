@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display: inline;
+}
+
+.navbar{
+    padding: 20px 0;
+    background: linear-gradient(to right, #ffff0088, #0000ff88);
+    position: fixed;
+    width: 100%;
+}
+
+.links{
+    /* display: block */
+    margin: 0 20px;
+    color: #eb4242;
+    /* text-decoration: none; */
+    font-weight: 800;
+}
+.container{
+    margin: 20px;
+}
+
+.product{
+    display: inline-block;
+    border: 2px solid #ddd;
+    margin: 50px;
+    padding: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: #3d3d3d;
+    color: #ddd;
+}
+.chat{
+    position: fixed;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid green;
+    right: 0%;
+    bottom: 0%;
+}
+
+.footer{
+    background-color: bisque;
+    padding: 20px;
+}
+
+.table{
+    border: 1px solid blue;
+    display: table;
+    margin: 10px;
+    padding: 10px;
+}
+.row{
+    display: table-row;
+    padding: 5px;
+}
+.data{
+    display: table-cell;
+    padding: 5px;
+    border: 1px dotted red
+}
+.caption{
+    display: table-caption;
+}
+
+
+/* position property  */
+
+/* static */
+/* absolute */
+/* fixed */
+/* relative */
+
+/* Before flexbox */
+
+/* display inline, block, inline-block */
+/* position elements */
+/* top bottom left right */
+/* floats */
+/* table */
+
+
