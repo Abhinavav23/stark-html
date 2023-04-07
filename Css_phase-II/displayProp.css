@@ -12,6 +12,7 @@
     background: linear-gradient(to right, #ffff0088, #0000ff88);
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 .links{
