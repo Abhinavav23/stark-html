@@ -50,9 +50,12 @@
 
 aside{
     border: 1px solid green;
-    color: #aaa;
+    color: #3d3d3d;
+    background-color: #aaa;
     /* width: 200px; */
-    height: 200px;
+    /* height: 200px; */
+    width: 100px;
+    height: 50px;
 }
 
 #item-1{
@@ -72,3 +75,37 @@ aside{
     flex: 1 1 200px;
 }
 
+#container{
+    margin: 20px;
+    background-color: #3d3d3d;
+    display: flex; /* flex dir is row*/
+    height: 500px;
+    /* width: 100px; */
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+
+/* #item-5{
+    order: 1;
+}
+
+#item-6{
+    order: 2;
+}
+
+#item-7{
+    order: 1;
+}
+
+#item-8{
+    order: 1;
+} */
+
+#item-7{
+    order: -1;
+}
+
+#item-6{
+    order: 2;
+}
