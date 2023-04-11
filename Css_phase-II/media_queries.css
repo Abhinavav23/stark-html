@@ -1,0 +1,134 @@
+/* media queries */
+/* allows us to write specific styles for specific devices/screen sizes, also for different other conditions */
+
+
+/* screens */
+
+/* 3 to 4 screen sizes  */
+/* 1. mobile device --> 300 px - 480 px */
+/* 2. tablets --> 481x to 768 px */
+/* 3. laptops --> 769 px to 1200 px */
+/* 4. desktops/larger screens --> 1200px and above */
+
+/* syntax */
+/* @media */
+/* type of media/ media-type  */
+/* features or behaviour */
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+#link-container{
+    background-color: #3d3d3d;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#container{
+    background-color: beige;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+section{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #4f3434;
+}
+
+/* @media screen and (max-width: 768px){
+    #link-container{
+        flex-direction: column;
+        background-color: #4f3434
+    }
+    #container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #item-1{
+        grid-column: 1 / span 2;
+    }
+} */
+
+/* @media screen and (max-width:480px){
+    #link-container{
+        flex-direction: column;
+        background-color: #959595
+    }
+    #container{
+        grid-template-columns: 1fr;
+    }
+    #item-2{
+        grid-column: 1 / span 2;
+    }
+} */
+
+/* @media screen and (min-width: 769px) and (max-width: 1000px){
+    a{
+        border: none;
+        font-weight: 800;
+        font-size: 20px;
+    }
+} */
+
+@media screen and (orientation: portrait){
+    #link-container{
+        flex-direction: column;
+        background-color: #959595
+    }
+    #container{
+        grid-template-columns: 1fr;
+    }
+    #item-2{
+        grid-column: 1 / span 2;
+    }
+}
+
+@media print {
+    #link-container{
+        flex-direction: column;
+        background-color: #45056f;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* any screen --> 3d3d3d */
+/* screen 0 to 768 --->  4f3434*/
+/*  screen 0 to 480 --->  959595*/
+
+/* @media screen and (min-width:480px){
+    #link-container{
+        flex-direction: column;
+        background-color: #959595
+    }
+}
+
+@media screen and (min-width: 768px){
+    #link-container{
+        flex-direction: column;
+        background-color: #4f3434
+    }
+} */
+
+
+
+
