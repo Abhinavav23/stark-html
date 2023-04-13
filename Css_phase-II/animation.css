@@ -1,0 +1,65 @@
+main{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section-1{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 50%;
+    /* animation-name: myAnimation1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    */
+    animation: myAnimation1 3s ease-in-out 1s infinite alternate;
+}
+
+/* define a animation */
+/* use an animation */
+
+@keyframes myAnimation1{
+    from{
+        width: 20px;
+        height: 20px;
+        background-color: red;
+    }
+    to{
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+    }
+}
+
+@keyframes myAnimation2{
+    0%{
+        width: 0px;
+        height: 0px;
+        background-color: red;
+    }
+    25%{
+        width: 100px;
+        height: 100px;
+        background-color:bisque;
+    }
+    50%{
+        width: 150px;
+        height: 150px;
+        background-color:aqua;
+    }
+    75%{
+        width: 225px;
+        height: 225px;
+        background-color: green;
+    }
+    100%{
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+    }
+}

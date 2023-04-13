@@ -1,0 +1,32 @@
+
+/* h3{
+    color: burlywood;
+} */
+
+/* #rule{
+    color:chocolate;
+}
+
+.my-class{
+    color: rebeccapurple;
+} */
+
+main section h3{
+    color: red;
+}
+
+h3{
+    color: blue
+}
+
+
+/* order of precedence */
+/* id selector */
+/* class selector */
+/* tag selector or element selector */
+
+
+/* 001
+010 
+100
+*/
