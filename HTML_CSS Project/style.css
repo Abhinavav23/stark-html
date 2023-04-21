@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    padding: 0.5rem 0.7rem;
+   text-decoration: none; 
+}
+a:hover{
+    background-color: rgb(60, 141, 114);
+    border-radius: 0.25rem;
+}
+
+.navbar{
+    background-color: #3d3d3d;
+    color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+   
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.links > a{
+    color: #fff;
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    
+}
+
+.brand-show{
+    background: url('./images//code.png') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+.heading{
+    font-size: xx-large;
+}
+.decsription{
+    font-size: large;
+}
+.what{
+    padding: 1rem;
+    background-color: wheat;
+}
+.what h2{
+    text-align: center;
+}
+.item-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+article h3{
+    padding: 0.5rem;
+    color: brown;
+}
+
+.contact-us{
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+input, textarea{
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    border: none;
+    border-radius: 0.25rem;
+}
+.contact{
+    background-color:chocolate;
+    border: 1px solid #333;
+    border-radius: 0.25rem;
+}
+.our-team{
+    background-color: crimson;
+    color: #ddd;
+}
+
+.footer{
+    background-color: #3d3d3d;
+    color: #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 578px) {
+    .contact-us{
+        width: 100%;
+    }
+    .item-container{
+        flex-direction: column;
+    }
+}
